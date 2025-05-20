@@ -35,10 +35,6 @@
 			"Enabled": true
 		},
 		{
-			"Name": "CommonLoadingScreen",
-			"Enabled": true
-		},
-		{
 			"Name": "EnhancedInput",
 			"Enabled": true
 		},

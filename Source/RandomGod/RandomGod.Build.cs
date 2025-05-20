@@ -6,7 +6,6 @@ public class RandomGod : ModuleRules
 {
 	public RandomGod(ReadOnlyTargetRules Target) : base(Target)
 	{
-		PrivateDependencyModuleNames.AddRange(new string[] { "CommonLoadingScreen" });
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 		PublicDependencyModuleNames.AddRange(new string[] 
 			{   "Core", 
@@ -22,7 +21,6 @@ public class RandomGod : ModuleRules
 				"ModularGameplayActors",
 				"GameFeatures",
 				"CommonUser",
-				"CommonLoadingScreen",
 				"GameplayAbilities",
 				"CommonUI",
 				"UMG",
